@@ -17,6 +17,7 @@ import java.util.stream.Stream;
 
 @SpringBootApplication
 public class CommandRouterApplication {
+
     public static void main(String[] args) {
         SpringApplication.run(CommandRouterApplication.class, args);
     }
