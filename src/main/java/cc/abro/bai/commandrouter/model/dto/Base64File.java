@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Photo {
+public class Base64File {
     private String name;
-    private String base64;
+    private String body;
 }

@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 public class ReceiveMessage {
     private String text;
-    private List<Photo> photos;
+    private List<Base64File> photos;
     private String authorId;
     private Long sendTime;
     private String integratorTopic;
